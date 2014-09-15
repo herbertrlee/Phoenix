@@ -1,0 +1,525 @@
+{
+  "instructions":
+	[
+		"Press the FIRE! button to fire!",
+		"Press the L/R buttons to move left and right!",
+		"Kill the bad guys!",
+		"Collect the money!",
+		"Buy the guns!",
+		"Pretty standard stuff.  Go play!"
+	],
+  "enemies":
+  [
+    {
+      "name": "mook",
+      "height": 0.4,
+      "width": 0.4,
+      "shotFrequency": 8,
+      "maxHP": 4,
+      "scoreValue": 10,
+      "movementType": "square",
+      "shotType" : "normal",
+      "numberOfShots" : 1,
+      "special" : "none",
+      "textures" : ["mook"],
+      "spawnable" : "false",
+      "moneyDropChance" : 0.1,
+      "moneyDropAmount" : 100
+    },
+    {
+      "name": "boss1",
+      "height": 0.5,
+      "width": 1,
+      "shotFrequency": 4,
+      "maxHP": 30,
+      "scoreValue": 100,
+      "movementType": "line",
+      "shotType" : "aimed",
+      "numberOfShots" : 2,
+      "special" : "none",
+      "textures" : ["boss"],
+      "spawnable" : "false",
+      "moneyDropChance" : 0.2,
+      "moneyDropAmount" : 100
+    },
+    {
+      "name": "tie",
+      "height": 0.4,
+      "width": 0.4,
+      "shotFrequency": 8,
+      "maxHP": 10,
+      "scoreValue": 20,
+      "movementType": "square",
+      "shotType" : "normal",
+      "numberOfShots" : 1,
+      "special" : "none",
+      "textures" : ["tie"],
+      "spawnable" : "false",
+      "moneyDropChance" : 0.1,
+      "moneyDropAmount" : 100
+    },
+    {
+      "name": "shield",
+      "height": 0.4,
+      "width": 0.4,
+      "shotFrequency": 6,
+      "maxHP": 16,
+      "scoreValue": 30,
+      "movementType": "square",
+      "shotType" : "normal",
+      "numberOfShots" : 1,
+      "special" : "none",
+      "textures" : ["shield"],
+      "spawnable" : "false",
+      "moneyDropChance" : 0.1,
+      "moneyDropAmount" : 100
+    },
+    {
+      "name": "bounce1",
+      "height": 0.6,
+      "width": 0.3,
+      "shotFrequency": 4,
+      "maxHP": 16,
+      "scoreValue": 50,
+      "movementType": "bounce",
+      "shotType" : "angled",
+      "numberOfShots" : 1,
+      "special" : "none",
+      "textures" : ["bounce"],
+      "spawnable" : "false",
+      "moneyDropChance" : 0.1,
+      "moneyDropAmount" : 100
+    },
+    {
+      "name": "bounce2",
+      "height": 0.6,
+      "width": 0.3,
+      "shotFrequency": 4,
+      "maxHP": 32,
+      "scoreValue": 50,
+      "movementType": "bounce",
+      "shotType" : "angled",
+      "numberOfShots" : 1,
+      "special" : "none",
+      "textures" : ["bounce"],
+      "spawnable" : "false",
+      "moneyDropChance" : 0.1,
+      "moneyDropAmount" : 200
+    },
+    {
+      "name": "bounce3",
+      "height": 0.6,
+      "width": 0.3,
+      "shotFrequency": 4,
+      "maxHP": 48,
+      "scoreValue": 50,
+      "movementType": "bounce",
+      "shotType" : "angled",
+      "numberOfShots" : 1,
+      "special" : "none",
+      "textures" : ["bounce"],
+      "spawnable" : "true",
+      "moneyDropChance" : 0.1,
+      "moneyDropAmount" : 200
+    },
+    {
+      "name": "loop",
+      "height": 0.8,
+      "width": 0.8,
+      "shotFrequency": 4,
+      "maxHP": 50,
+      "scoreValue": 80,
+      "movementType": "loop",
+      "shotType" : "aimed",
+      "numberOfShots" : 1,
+      "special" : "none",
+      "textures" : ["loop1", "loop2", "loop3", "loop4"],
+      "spawnable" : "false",
+      "moneyDropChance" : 0.25,
+      "moneyDropAmount" : 200
+    },
+    {
+      "name": "boss2",
+      "height": 0.5,
+      "width": 1,
+      "shotFrequency": 4,
+      "maxHP": 100,
+      "scoreValue": 200,
+      "movementType": "line",
+      "shotType" : "aimed",
+      "numberOfShots" : 2,
+      "special" : "none",
+      "textures" : ["boss"],
+      "spawnable" : "false",
+      "moneyDropChance" : 0.2,
+      "moneyDropAmount" : 200
+    },
+    {
+      "name": "phase",
+      "height": 0.4,
+      "width": 0.4,
+      "shotFrequency": 8,
+      "maxHP": 30,
+      "scoreValue": 50,
+      "movementType": "square",
+      "shotType" : "normal",
+      "numberOfShots" : 1,
+      "special" : "phasing",
+      "textures" : ["phaseIn", "phaseOut"],
+      "spawnable" : "false",
+      "moneyDropChance" : 0.1,
+      "moneyDropAmount" : 200
+    },
+    {
+      "name": "reflect",
+      "height": 0.4,
+      "width": 0.4,
+      "shotFrequency": 8,
+      "maxHP": 40,
+      "scoreValue": 60,
+      "movementType": "square",
+      "shotType" : "normal",
+      "numberOfShots" : 1,
+      "special" : "reflect",
+      "textures" : ["reflectOn", "reflectOff"],
+      "spawnable" : "false",
+      "moneyDropChance" : 0.1,
+      "moneyDropAmount" : 200
+    },
+    {
+      "name": "stealth",
+      "height": 0.4,
+      "width": 0.4,
+      "shotFrequency": 4,
+      "maxHP": 80,
+      "scoreValue": 70,
+      "movementType": "square",
+      "shotType" : "aimed",
+      "numberOfShots" : 1,
+      "special" : "stealth",
+      "textures" : ["stealth"],
+      "spawnable" : "false",
+      "moneyDropChance" : 0.1,
+      "moneyDropAmount" : 200
+    },
+    {
+      "name": "bomber",
+      "height": 0.4,
+      "width": 0.4,
+      "shotFrequency": 6,
+      "maxHP": 40,
+      "scoreValue": 80,
+      "movementType": "square",
+      "shotType" : "normal",
+      "numberOfShots" : 1,
+      "special" : "bomber",
+      "textures" : ["bomber"],
+      "spawnable" : "false",
+      "moneyDropChance" : 0.1,
+      "moneyDropAmount" : 200
+    },
+    {
+      "name": "boss3",
+      "height": 0.5,
+      "width": 1,
+      "shotFrequency": 4,
+      "maxHP": 300,
+      "scoreValue": 300,
+      "movementType": "line",
+      "shotType" : "aimed",
+      "numberOfShots" : 2,
+      "special" : "none",
+      "textures" : ["boss"],
+      "spawnable" : "false",
+      "moneyDropChance" : 0.2,
+      "moneyDropAmount" : 200
+    },
+    {
+      "name": "hydra",
+      "height": 0.8,
+      "width": 0.8,
+      "shotFrequency": 3,
+      "maxHP": 100,
+      "scoreValue": 90,
+      "movementType": "loop",
+      "shotType" : "spawn",
+      "numberOfShots" : 1,
+      "special" : "none",
+      "textures" : ["hydra"],
+      "spawnable" : "false",
+      "moneyDropChance" : 0.2,
+      "moneyDropAmount" : 300
+    },
+    {
+      "name": "spawn",
+      "height": 0.3,
+      "width": 0.3,
+      "shotFrequency": 6,
+      "maxHP": 30,
+      "scoreValue": 10,
+      "movementType": "bounce",
+      "shotType" : "normal",
+      "numberOfShots" : 1,
+      "special" : "none",
+      "textures" : ["spawn"],
+      "spawnable" : "true",
+      "moneyDropChance" : 0,
+      "moneyDropAmount" : 100
+    },
+    {
+      "name": "bossFinal",
+      "height": 2,
+      "width": 3,
+      "shotFrequency": 3,
+      "maxHP": 2000,
+      "scoreValue": 10000,
+      "movementType": "line",
+      "shotType" : "spawn",
+      "numberOfShots" : 4,
+      "special" : "lastBoss",
+      "textures" : ["boss"],
+      "spawnable" : "false",
+      "moneyDropChance" : 0,
+      "moneyDropAmount" : 100
+    },
+    {
+      "name": "phaseSpawn",
+      "height": 0.3,
+      "width": 0.3,
+      "shotFrequency": 8,
+      "maxHP": 30,
+      "scoreValue": 50,
+      "movementType": "bounce",
+      "shotType" : "normal",
+      "numberOfShots" : 1,
+      "special" : "phasing",
+      "textures" : ["phaseIn", "phaseOut"],
+      "spawnable" : "true",
+      "moneyDropChance" : 0,
+      "moneyDropAmount" : 100
+    },
+    {
+      "name": "stealthSpawn",
+      "height": 0.3,
+      "width": 0.3,
+      "shotFrequency": 4,
+      "maxHP": 80,
+      "scoreValue": 70,
+      "movementType": "bounce",
+      "shotType" : "aimed",
+      "numberOfShots" : 1,
+      "special" : "stealth",
+      "textures" : ["stealth"],
+      "spawnable" : "true",
+      "moneyDropChance" : 0,
+      "moneyDropAmount" : 100
+    },
+    {
+      "name": "bomberSpawn",
+      "height": 0.3,
+      "width": 0.3,
+      "shotFrequency": 6,
+      "maxHP": 40,
+      "scoreValue": 80,
+      "movementType": "bounce",
+      "shotType" : "normal",
+      "numberOfShots" : 1,
+      "special" : "bomber",
+      "textures" : ["bomber"],
+      "spawnable" : "true",
+      "moneyDropChance" : 0,
+      "moneyDropAmount" : 100
+    }
+  ],
+  "phoenixShots":
+  [
+    {
+      "name" : "Phoenix Gun",
+      "type" : 1,
+      "width" : 0.1,
+      "height" : 0.2,
+      "speed" : 4,
+      "damage" : 2,
+      "texture" : "phoenixShot1",
+      "upgradeable" : true
+    },
+    {
+      "name" : "Plasma Torpedo Left",
+      "type" : 2,
+      "width" : 0.1,
+      "height" : 0.2,
+      "speed" : 6,
+      "damage" : 2,
+      "texture" : "phoenixShot2",
+      "upgradeable" : true
+    },
+    {
+      "name" : "Plasma Torpedo Right",
+      "type" : 3,
+      "width" : 0.1,
+      "height" : 0.2,
+      "speed" : 6,
+      "damage" : 2,
+      "texture" : "phoenixShot2",
+      "upgradeable" : true
+    },
+    {
+      "name" : "Trinity Cannon Center",
+      "type" : 4,
+      "width" : 0.2,
+      "height" : 0.2,
+      "speed" : 3,
+      "damage" : 4,
+      "texture" : "phoenixShot3",
+      "upgradeable" : false
+    },
+    {
+      "name" : "Trinity Cannon Side",
+      "type" : 5,
+      "width" : 0.2,
+      "height" : 0.2,
+      "speed" : 3,
+      "damage" : 3,
+      "texture" : "phoenixShot3",
+      "upgradeable" : false
+    },
+    {
+      "name" : "Positron Missile",
+      "type" : 6,
+      "width" : 0.2,
+      "height" : 0.4,
+      "speed" : 5,
+      "damage" : 8,
+      "texture" : "phoenixShot4",
+      "upgradeable" : false
+    }
+  ],
+  "phoenixWeapons" :
+  [
+    {
+      "name" : "Phoenix Gun",
+      "weaponLevel" : 1,
+      "cost" : 0,
+      "description" : "The basic Phoenix Gun.  Since you've gotten to the shop, you probably have an idea of how this thing works by now.  If you're still not sure, try playing the game for like, 30 seconds.",
+      "weapons" :
+      [
+	{
+	  "weaponType" : 1,
+	  "angle" : 0,
+	  "position" : "center"
+	}
+      ]
+    },
+    {
+      "name" : "Plasma Torpedoes",
+      "weaponLevel" : 2,
+      "cost" : 300,
+      "description" : "Fires two fast-moving torpedoes!  That's twice as many as the Phoenix Gun, I think.  You should probably check my math.",
+      "weapons" :
+      [
+	{
+	  "weaponType" : 2,
+	  "angle" : 0,
+	  "position" : "left"
+	},
+	{
+	  "weaponType" : 3,
+	  "angle" : 0,
+	  "position" : "right"
+	}
+      ]
+    },
+    {
+      "name" : "Trinity Cannon",
+      "weaponLevel" : 3,
+      "cost" : 1000,
+      "description" : "Fires THREE projectiles - one in front and two to the sides.  The side ones don't do as much damage, which makes them kind of sad, but the center one tries real hard not to rub it in their faces.",
+      "weapons" :
+      [
+	{
+	  "weaponType" : 4,
+	  "angle" : 0,
+	  "position" : "center"
+	},
+	{
+	  "weaponType" : 5,
+	  "angle" : -30,
+	  "position" : "center"
+	},
+	{
+	  "weaponType" : 5,
+	  "angle" : 30,
+	  "position" : "center"
+	}
+      ]
+    },
+    {
+      "name" : "Positron Missiles",
+      "weaponLevel" : 4,
+      "cost" : 1250,
+      "description" : "Betcha thought this would fire four things, didn't you?  Nope, just two - but they pack a punch!  How does one actually 'pack' a punch, though?",
+      "weapons" :
+      [
+	{
+	  "weaponType" : 6,
+	  "angle" : -3,
+	  "position" : "center"
+	},
+	{
+	  "weaponType" : 6,
+	  "angle" : 3,
+	  "position" : "center"
+	}
+      ]
+    },
+    {
+      "name" : "V.E.R.A.",
+      "weaponLevel" : 5,
+      "cost" : 2000,
+      "description" : "The Vaporization Energy Radiation Armament.  This is my very favorite gun.",
+      "weapons" :
+      [
+	{
+	  "weaponType" : 1,
+	  "angle" : 0,
+	  "position" : "center"
+	},
+	{
+	  "weaponType" : 2,
+	  "angle" : 0,
+	  "position" : "left"
+	},
+	{
+	  "weaponType" : 3,
+	  "angle" : 0,
+	  "position" : "right"
+	},
+	{
+	  "weaponType" : 4,
+	  "angle" : 0,
+	  "position" : "center"
+	},
+	{
+	  "weaponType" : 5,
+	  "angle" : 30,
+	  "position" : "center"
+	},
+	{
+	  "weaponType" : 5,
+	  "angle" : -30,
+	  "position" : "center"
+	},
+	{
+	  "weaponType" : 6,
+	  "angle" : -3,
+	  "position" : "center"
+	},
+	{
+	  "weaponType" : 6,
+	  "angle" : 3,
+	  "position" : "center"
+	}
+      ]
+    }
+  ]
+}

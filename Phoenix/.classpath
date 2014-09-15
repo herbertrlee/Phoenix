@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="libs/gdx.jar"/>
+	<classpathentry kind="lib" path="/media/Data/java-json.jar"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/LibGDXGame"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

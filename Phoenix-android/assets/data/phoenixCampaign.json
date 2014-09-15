@@ -1,0 +1,1161 @@
+{
+    "levels": [
+        {
+            "level": 1,
+            "name": "mooks",
+            "fleets": [
+                {
+                    "rows": [
+                        [
+                            "mook",
+                            "mook",
+                            "mook",
+                            "mook",
+                            "mook"
+                        ],
+                        [
+                            "mook",
+                            "mook",
+                            "mook",
+                            "mook",
+                            "mook"
+                        ],
+                        [
+                            "mook",
+                            "mook",
+                            "mook",
+                            "mook",
+                            "mook"
+                        ],
+                        [
+                            "mook",
+                            "mook",
+                            "mook",
+                            "mook",
+                            "mook"
+                        ]
+                    ],
+                    "offsets": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "abovePaddings": [
+                        0.5,
+                        0.5,
+                        0.5,
+                        1
+                    ]
+                },
+                {
+                    "rows": [
+                        [
+                            "mook",
+                            "mook",
+                            "mook",
+                            "mook",
+                            "mook"
+                        ],
+                        [
+                            "mook",
+                            "mook",
+                            "mook",
+                            "mook",
+                            "mook"
+                        ],
+                        [
+                            "mook",
+                            "mook",
+                            "mook",
+                            "mook",
+                            "mook"
+                        ],
+                        [
+                            "mook",
+                            "mook",
+                            "mook",
+                            "mook",
+                            "mook"
+                        ]
+                    ],
+                    "offsets": [
+                        0,
+                        0.5,
+                        0,
+                        0.5
+                    ],
+                    "abovePaddings": [
+                        0.5,
+                        0.5,
+                        0.5,
+                        1
+                    ]
+                },
+                {
+                    "rows": [
+                        [
+                            "mook",
+                            "mook",
+                            "mook",
+                            "mook",
+                            "mook"
+                        ],
+                        [
+                            "boss1"
+                        ]
+                    ],
+                    "offsets": [
+                        0,
+                        0
+                    ],
+                    "abovePaddings": [
+                        1,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "name": "ties",
+            "fleets": [
+                {
+                    "rows": [
+                        [
+                            "tie",
+                            "tie",
+                            "tie",
+                            "tie",
+                            "tie"
+                        ],
+                        [
+                            "tie",
+                            "tie",
+                            "tie",
+                            "tie",
+                            "tie"
+                        ],
+                        [
+                            "tie",
+                            "tie",
+                            "tie",
+                            "tie",
+                            "tie"
+                        ],
+                        [
+                            "tie",
+                            "tie",
+                            "tie",
+                            "tie",
+                            "tie"
+                        ]
+                    ],
+                    "offsets": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "abovePaddings": [
+                        0.5,
+                        0.5,
+                        0.5,
+                        1
+                    ]
+                },
+                {
+                    "rows": [
+                        [
+                            "tie",
+                            "tie",
+                            "tie",
+                            "tie",
+                            "tie"
+                        ],
+                        [
+                            "tie",
+                            "tie",
+                            "tie",
+                            "tie",
+                            "tie"
+                        ],
+                        [
+                            "tie",
+                            "tie",
+                            "tie",
+                            "tie",
+                            "tie"
+                        ],
+                        [
+                            "tie",
+                            "tie",
+                            "tie",
+                            "tie",
+                            "tie"
+                        ]
+                    ],
+                    "offsets": [
+                        0,
+                        0.5,
+                        0,
+                        0.5
+                    ],
+                    "abovePaddings": [
+                        0.5,
+                        0.5,
+                        0.5,
+                        1
+                    ]
+                },
+                {
+                    "rows": [
+                        [
+                            "bounce1",
+                            "bounce1",
+                            "bounce1",
+                            "bounce1",
+                            "bounce1",
+                            "bounce1",
+                            "bounce1",
+                            "bounce1"
+                        ]
+                    ],
+                    "offsets": [
+                        0
+                    ],
+                    "abovePaddings": [
+                        2
+                    ]
+                },
+                {
+                    "rows": [
+                        [
+                            "tie",
+                            "tie",
+                            "tie",
+                            "tie",
+                            "tie"
+                        ],
+                        [
+                            "boss1"
+                        ]
+                    ],
+                    "offsets": [
+                        0,
+                        0
+                    ],
+                    "abovePaddings": [
+                        1,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "name": "shields",
+            "fleets": [
+                {
+                    "rows": [
+                        [
+                            "shield",
+                            "shield",
+                            "shield",
+                            "shield",
+                            "shield"
+                        ],
+                        [
+                            "shield",
+                            "shield",
+                            "shield",
+                            "shield",
+                            "shield"
+                        ],
+                        [
+                            "shield",
+                            "shield",
+                            "shield",
+                            "shield",
+                            "shield"
+                        ],
+                        [
+                            "shield",
+                            "shield",
+                            "shield",
+                            "shield",
+                            "shield"
+                        ]
+                    ],
+                    "offsets": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "abovePaddings": [
+                        0.5,
+                        0.5,
+                        0.5,
+                        1
+                    ]
+                },
+                {
+                    "rows": [
+                        [
+                            "shield",
+                            "shield",
+                            "shield",
+                            "shield",
+                            "shield"
+                        ],
+                        [
+                            "shield",
+                            "shield",
+                            "shield",
+                            "shield",
+                            "shield"
+                        ],
+                        [
+                            "shield",
+                            "shield",
+                            "shield",
+                            "shield",
+                            "shield"
+                        ],
+                        [
+                            "shield",
+                            "shield",
+                            "shield",
+                            "shield",
+                            "shield"
+                        ]
+                    ],
+                    "offsets": [
+                        0,
+                        0.5,
+                        0,
+                        0.5
+                    ],
+                    "abovePaddings": [
+                        0.5,
+                        0.5,
+                        0.5,
+                        1
+                    ]
+                },
+                {
+                    "rows": [
+                        [
+                            "bounce1",
+                            "bounce1",
+                            "bounce1",
+                            "bounce1",
+                            "bounce1",
+                            "bounce1",
+                            "bounce1",
+                            "bounce1"
+                        ]
+                    ],
+                    "offsets": [
+                        0
+                    ],
+                    "abovePaddings": [
+                        0.5
+                    ]
+                },
+                {
+                    "rows": [
+                        [
+                            "shield",
+                            "shield",
+                            "shield",
+                            "shield",
+                            "shield"
+                        ],
+                        [
+                            "boss1"
+                        ]
+                    ],
+                    "offsets": [
+                        0,
+                        0
+                    ],
+                    "abovePaddings": [
+                        1,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "name": "loops",
+            "fleets": [
+                {
+                    "rows": [
+                        [
+                            "loop"
+                        ],
+                        [
+                            "loop"
+                        ],
+                        [
+                            "loop"
+                        ],
+                        [
+                            "loop"
+                        ],
+                        [
+                            "loop"
+                        ],
+                        [
+                            "loop"
+                        ],
+                        [
+                            "loop"
+                        ],
+                        [
+                            "loop"
+                        ]
+                    ],
+                    "offsets": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "abovePaddings": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "rows": [
+                        [
+                            "loop",
+                            "loop"
+                        ],
+                        [
+                            "loop",
+                            "loop"
+                        ],
+                        [
+                            "loop",
+                            "loop"
+                        ],
+                        [
+                            "loop",
+                            "loop"
+                        ]
+                    ],
+                    "offsets": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "abovePaddings": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "rows": [
+                        [
+                            "bounce2",
+                            "bounce2",
+                            "bounce2",
+                            "bounce2",
+                            "bounce2",
+                            "bounce2",
+                            "bounce2",
+                            "bounce2"
+                        ]
+                    ],
+                    "offsets": [
+                        0
+                    ],
+                    "abovePaddings": [
+                        2
+                    ]
+                },
+                {
+                    "rows": [
+                        [
+                            "loop",
+                            "loop",
+                            "loop",
+                            "loop"
+                        ],
+                        [
+                            "boss2"
+                        ]
+                    ],
+                    "offsets": [
+                        0,
+                        0
+                    ],
+                    "abovePaddings": [
+                        1,
+                        1.5
+                    ]
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "name": "phasers",
+            "fleets": [
+                {
+                    "rows": [
+                        [
+                            "phase",
+                            "phase",
+                            "phase",
+                            "phase",
+                            "phase"
+                        ],
+                        [
+                            "phase",
+                            "phase",
+                            "phase",
+                            "phase",
+                            "phase"
+                        ],
+                        [
+                            "phase",
+                            "phase",
+                            "phase",
+                            "phase",
+                            "phase"
+                        ],
+                        [
+                            "phase",
+                            "phase",
+                            "phase",
+                            "phase",
+                            "phase"
+                        ]
+                    ],
+                    "offsets": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "abovePaddings": [
+                        0.5,
+                        0.5,
+                        0.5,
+                        1
+                    ]
+                },
+                {
+                    "rows": [
+                        [
+                            "phase",
+                            "phase",
+                            "phase",
+                            "phase",
+                            "phase"
+                        ],
+                        [
+                            "phase",
+                            "phase",
+                            "phase",
+                            "phase",
+                            "phase"
+                        ],
+                        [
+                            "phase",
+                            "phase",
+                            "phase",
+                            "phase",
+                            "phase"
+                        ],
+                        [
+                            "phase",
+                            "phase",
+                            "phase",
+                            "phase",
+                            "phase"
+                        ]
+                    ],
+                    "offsets": [
+                        0,
+                        0.5,
+                        0,
+                        0.5
+                    ],
+                    "abovePaddings": [
+                        0.5,
+                        0.5,
+                        0.5,
+                        1
+                    ]
+                },
+                {
+                    "rows": [
+                        [
+                            "phase",
+                            "phase",
+                            "phase",
+                            "phase",
+                            "phase"
+                        ],
+                        [
+                            "boss2"
+                        ]
+                    ],
+                    "offsets": [
+                        0,
+                        0
+                    ],
+                    "abovePaddings": [
+                        1,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "name": "reflectors",
+            "fleets": [
+                {
+                    "rows": [
+                        [
+                            "reflect",
+                            "reflect",
+                            "reflect",
+                            "reflect",
+                            "reflect"
+                        ],
+                        [
+                            "reflect",
+                            "reflect",
+                            "reflect",
+                            "reflect",
+                            "reflect"
+                        ],
+                        [
+                            "reflect",
+                            "reflect",
+                            "reflect",
+                            "reflect",
+                            "reflect"
+                        ],
+                        [
+                            "reflect",
+                            "reflect",
+                            "reflect",
+                            "reflect",
+                            "reflect"
+                        ]
+                    ],
+                    "offsets": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "abovePaddings": [
+                        0.5,
+                        0.5,
+                        0.5,
+                        1
+                    ]
+                },
+                {
+                    "rows": [
+                        [
+                            "reflect",
+                            "reflect",
+                            "reflect",
+                            "reflect",
+                            "reflect"
+                        ],
+                        [
+                            "reflect",
+                            "reflect",
+                            "reflect",
+                            "reflect",
+                            "reflect"
+                        ],
+                        [
+                            "reflect",
+                            "reflect",
+                            "reflect",
+                            "reflect",
+                            "reflect"
+                        ],
+                        [
+                            "reflect",
+                            "reflect",
+                            "reflect",
+                            "reflect",
+                            "reflect"
+                        ]
+                    ],
+                    "offsets": [
+                        0,
+                        0.5,
+                        0,
+                        0.5
+                    ],
+                    "abovePaddings": [
+                        0.5,
+                        0.5,
+                        0.5,
+                        1
+                    ]
+                },
+                {
+                    "rows": [
+                        [
+                            "bounce2",
+                            "bounce2",
+                            "bounce2",
+                            "bounce2",
+                            "bounce2",
+                            "bounce2",
+                            "bounce2",
+                            "bounce2"
+                        ]
+                    ],
+                    "offsets": [
+                        0
+                    ],
+                    "abovePaddings": [
+                        2
+                    ]
+                },
+                {
+                    "rows": [
+                        [
+                            "reflect",
+                            "reflect",
+                            "reflect",
+                            "reflect",
+                            "reflect"
+                        ],
+                        [
+                            "boss2"
+                        ]
+                    ],
+                    "offsets": [
+                        0,
+                        0
+                    ],
+                    "abovePaddings": [
+                        1,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "fleets": [
+                {
+                    "rows": [
+                        [
+                            "stealth",
+                            "stealth",
+                            "stealth",
+                            "stealth",
+                            "stealth"
+                        ],
+                        [
+                            "stealth",
+                            "stealth",
+                            "stealth",
+                            "stealth",
+                            "stealth"
+                        ],
+                        [
+                            "stealth",
+                            "stealth",
+                            "stealth",
+                            "stealth",
+                            "stealth"
+                        ],
+                        [
+                            "stealth",
+                            "stealth",
+                            "stealth",
+                            "stealth",
+                            "stealth"
+                        ]
+                    ],
+                    "offsets": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "abovePaddings": [
+                        0.5,
+                        0.5,
+                        0.5,
+                        1
+                    ]
+                },
+                {
+                    "rows": [
+                        [
+                            "stealth",
+                            "stealth",
+                            "stealth",
+                            "stealth",
+                            "stealth"
+                        ],
+                        [
+                            "stealth",
+                            "stealth",
+                            "stealth",
+                            "stealth",
+                            "stealth"
+                        ],
+                        [
+                            "stealth",
+                            "stealth",
+                            "stealth",
+                            "stealth",
+                            "stealth"
+                        ],
+                        [
+                            "stealth",
+                            "stealth",
+                            "stealth",
+                            "stealth",
+                            "stealth"
+                        ]
+                    ],
+                    "offsets": [
+                        0,
+                        0.5,
+                        0,
+                        0.5
+                    ],
+                    "abovePaddings": [
+                        0.5,
+                        0.5,
+                        0.5,
+                        1
+                    ]
+                },
+                {
+                    "rows": [
+                        [
+                            "bounce3",
+                            "bounce3",
+                            "bounce3",
+                            "bounce3",
+                            "bounce3",
+                            "bounce3",
+                            "bounce3",
+                            "bounce3"
+                        ]
+                    ],
+                    "offsets": [
+                        0
+                    ],
+                    "abovePaddings": [
+                        2
+                    ]
+                },
+                {
+                    "rows": [
+                        [
+                            "stealth",
+                            "stealth",
+                            "stealth",
+                            "stealth",
+                            "stealth"
+                        ],
+                        [
+                            "boss3"
+                        ]
+                    ],
+                    "offsets": [
+                        0,
+                        0
+                    ],
+                    "abovePaddings": [
+                        1,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "fleets": [
+                {
+                    "rows": [
+                        [
+                            "bomber",
+                            "bomber",
+                            "bomber",
+                            "bomber",
+                            "bomber"
+                        ],
+                        [
+                            "bomber",
+                            "bomber",
+                            "bomber",
+                            "bomber",
+                            "bomber"
+                        ],
+                        [
+                            "bomber",
+                            "bomber",
+                            "bomber",
+                            "bomber",
+                            "bomber"
+                        ],
+                        [
+                            "bomber",
+                            "bomber",
+                            "bomber",
+                            "bomber",
+                            "bomber"
+                        ]
+                    ],
+                    "offsets": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "abovePaddings": [
+                        0.5,
+                        0.5,
+                        0.5,
+                        1
+                    ]
+                },
+                {
+                    "rows": [
+                        [
+                            "bomber",
+                            "bomber",
+                            "bomber",
+                            "bomber",
+                            "bomber"
+                        ],
+                        [
+                            "bomber",
+                            "bomber",
+                            "bomber",
+                            "bomber",
+                            "bomber"
+                        ],
+                        [
+                            "bomber",
+                            "bomber",
+                            "bomber",
+                            "bomber",
+                            "bomber"
+                        ],
+                        [
+                            "bomber",
+                            "bomber",
+                            "bomber",
+                            "bomber",
+                            "bomber"
+                        ]
+                    ],
+                    "offsets": [
+                        0,
+                        0.5,
+                        0,
+                        0.5
+                    ],
+                    "abovePaddings": [
+                        0.5,
+                        0.5,
+                        0.5,
+                        1
+                    ]
+                },
+                {
+                    "rows": [
+                        [
+                            "bomber",
+                            "bomber",
+                            "bomber",
+                            "bomber",
+                            "bomber"
+                        ],
+                        [
+                            "boss3"
+                        ]
+                    ],
+                    "offsets": [
+                        0,
+                        0
+                    ],
+                    "abovePaddings": [
+                        1,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "level": 9,
+            "fleets": [
+                {
+                    "rows": [
+                        [
+                            "hydra"
+                        ],
+                        [
+                            "hydra"
+                        ],
+                        [
+                            "hydra"
+                        ],
+                        [
+                            "hydra"
+                        ],
+                        [
+                            "hydra"
+                        ],
+                        [
+                            "hydra"
+                        ],
+                        [
+                            "hydra"
+                        ],
+                        [
+                            "hydra"
+                        ]
+                    ],
+                    "offsets": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "abovePaddings": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "rows": [
+                        [
+                            "hydra"
+                        ],
+                        [
+                            "hydra"
+                        ],
+                        [
+                            "hydra"
+                        ],
+                        [
+                            "hydra"
+                        ],
+                        [
+                            "hydra"
+                        ],
+                        [
+                            "hydra"
+                        ],
+                        [
+                            "hydra"
+                        ],
+                        [
+                            "hydra"
+                        ]
+                    ],
+                    "offsets": [
+                        0,
+                        5,
+                        0,
+                        5,
+                        0,
+                        5,
+                        0,
+                        5
+                    ],
+                    "abovePaddings": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "rows": [
+                        [
+                            "hydra",
+                            "hydra",
+                            "hydra",
+                            "hydra"
+                        ],
+                        [
+                            "boss3"
+                        ]
+                    ],
+                    "offsets": [
+                        0,
+                        0
+                    ],
+                    "abovePaddings": [
+                        1,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "fleets": [
+                {
+                    "rows": [
+                        [
+                            "bossFinal"
+                        ]
+                    ],
+                    "offsets": [
+                        0
+                    ],
+                    "abovePaddings": [
+                        1
+                    ]
+                }
+            ]
+        }
+    ]
+}

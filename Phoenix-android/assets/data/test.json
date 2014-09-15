@@ -1,0 +1,37 @@
+{
+  "levels":
+  [
+    {
+      "level": 1,
+      "fleets":
+      [
+	{
+	  "rows" :
+	  [
+	    ["mook"]
+	  ],
+	  "offsets" :
+	  [0],
+	  "abovePaddings" :
+	  [1]
+	}
+      ]
+    },
+    {
+      "level": 2,
+      "fleets":
+      [
+	{
+	  "rows" :
+	  [
+	    ["mook"]
+	  ],
+	  "offsets" :
+	  [0],
+	  "abovePaddings" :
+	  [1]
+	}
+      ]
+    }
+  ]
+}
