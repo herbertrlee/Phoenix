@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center_horizontal|top" >
+    
+	<TextView
+	    android:id="@+id/czar_name_text_view"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    style="@android:style/TextAppearance.Medium"
+	    />
+	<LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="10dp"
+	    >
+		<TextView
+		    android:id="@+id/black_card_not_czar_text_view"
+		    android:layout_width="150dp"
+		    android:layout_height="200dp"
+		    style="@style/BlackCard"
+		    android:layout_marginRight="10dp"
+		    />
+		<LinearLayout
+		    android:orientation="vertical"
+		    android:layout_height="200dp"
+		    android:layout_width="0dp"
+		    android:layout_weight="1"
+		    android:weightSum="6"
+		    android:id="@+id/drop_area_layout"
+		     >
+		    
+		</LinearLayout>
+	</LinearLayout>
+	<FrameLayout
+	    android:id="@+id/white_card_container"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:layout_marginTop="10dp"
+	    >
+	    
+	</FrameLayout>
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_marginTop="10dp"
+	    >
+		<Button
+		    android:id="@+id/reset_selections_button"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/reset"
+		    />
+		<Button
+		    android:id="@+id/submit_white_button"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/submit"
+		    />
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	<string name="app_name">Cards</string>
+	<string name="title_activity_main">Cards</string>
+	<string-array name="drawer_item_array">
+	    <item >My Games</item>
+	    <item >Create Game</item>
+	    <item >Join Game</item>
+	    <item >Settings</item>
+	    <item >Help</item>
+	</string-array>
+	<string name="navigation">Navigation</string>
+	<string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="number_of_players">Number of players</string>
+    <string name="new_game">New Game</string>
+    <string name="game_name">Game Name</string>
+    <string name="create_game">Create Game</string>
+    <string name="start_game">Start Game</string>
+    <string name="cancel_game">Cancel Game</string>
+    <string name="join_game">Join Game</string>
+    <string name="leave_game">Leave Game</string>
+    <string name="select_card_sets">Select Card Sets</string>
+    <string name="submit">Submit</string>
+    <string name="reset">Reset</string>
+    <string name="history">History</string>
+    <string name="game">Game</string>
+    <string name="info">Info</string>
+    
+    <string name="your_games">Your Current Games</string>
+    <string name="pending_games">Open Games</string>
+    
+    <string name="player_number_prompt">Select number of players</string>
+    <string-array name="player_number_array">
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+        <item>"6"</item>
+        <item>"7"</item>
+        <item>"8"</item>
+        <item>"9"</item>
+        <item>"10"</item>
+        <item>"11"</item>
+        <item>"12"</item>
+    </string-array>
+    
+    <string name="drop_submissions_here">Submissions</string>
+    <string name="pick_winner">Select Winner</string>
+    <string name="forward">&gt;</string>
+    <string name="backward">&lt;</string>
+    <string name="jump">Jump To Round</string>
+    
+</resources>

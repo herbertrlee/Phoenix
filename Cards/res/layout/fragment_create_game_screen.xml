@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+	<LinearLayout
+	  android:orientation="vertical"
+	  android:layout_width="match_parent"
+	  android:layout_height="wrap_content"
+	  android:padding="10dip">
+	  <TextView android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/game_name"/>
+	  <EditText android:id="@+id/game_name_editText"
+	      	android:hint="@string/new_game"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="5dip"
+	        android:singleLine="true"
+	        android:layout_marginBottom="20dip"/>
+	  <TextView android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/number_of_players"/>
+	  <Spinner android:id="@+id/spinner_num_players"
+	  android:layout_width="match_parent"
+	  android:layout_height="wrap_content"
+	  android:entries="@array/player_number_array" />
+	  <TextView android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/select_card_sets"/>
+	  <LinearLayout 
+	      android:layout_width="match_parent"
+	      android:layout_height="wrap_content"
+	      android:orientation="vertical"
+	      android:id="@+id/card_set_layout">
+	      
+	  </LinearLayout>
+	  <Button android:id="@+id/create_game_button"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="10dip"
+	        android:text="@string/create_game"/>
+	</LinearLayout>
+</ScrollView>

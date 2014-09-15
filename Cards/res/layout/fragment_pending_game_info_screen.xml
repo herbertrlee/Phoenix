@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center">
+	
+    <TextView
+        android:id="@+id/game_name_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/players_needed_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        />
+    <LinearLayout
+        android:id="@+id/player_name_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        >
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/host_button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:id="@+id/start_game_button"
+            android:text="@string/start_game" 
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:id="@+id/cancel_game_button"
+            android:text="@string/cancel_game"
+            />
+        
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/non_host_button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:id="@+id/join_game_button"
+            android:text="@string/join_game" 
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:id="@+id/leave_game_button"
+            android:text="@string/leave_game"
+            />
+        
+    </LinearLayout>
+</LinearLayout>
