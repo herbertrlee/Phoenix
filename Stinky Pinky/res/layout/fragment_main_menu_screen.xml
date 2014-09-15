@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+	    <Button
+	        android:id="@+id/play_button"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/play"
+	        android:layout_marginBottom="5dp"
+	        style="?android:attr/buttonBarButtonStyle"
+	        android:background="@color/pink"
+	        android:textColor="@color/brown"
+	        />
+	    <Button
+	        android:id="@+id/info_button"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/info"
+	        android:layout_marginBottom="5dp"
+	        style="?android:attr/buttonBarButtonStyle"
+	        android:background="@color/pink"
+	        android:textColor="@color/brown"
+	        />
+	    <Button
+	        android:id="@+id/achievements_button"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/achievements"
+	        android:layout_marginBottom="5dp"
+	        style="?android:attr/buttonBarButtonStyle"
+	        android:background="@color/pink"
+	        android:textColor="@color/brown"
+	        />
+	    <Button
+	        android:id="@+id/leaderboards_button"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/leaderboards"
+	        android:layout_marginBottom="5dp"
+	        style="?android:attr/buttonBarButtonStyle"
+	        android:background="@color/pink"
+	        android:textColor="@color/brown"
+	        />
+	    <Button
+	        android:id="@+id/quit_button"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/quit"
+	        android:layout_marginBottom="5dp"
+	        style="?android:attr/buttonBarButtonStyle"
+	        android:background="@color/pink"
+	        android:textColor="@color/brown"
+	        />
+	    
+	    <LinearLayout 
+	        android:id="@+id/sign_in_bar"
+	        android:layout_height="120dp"
+	        android:layout_width="match_parent"
+	        android:background="#f0f0f0"
+	        android:layout_marginTop="30dp"
+	        android:orientation="horizontal"
+	        android:gravity="center"
+	        android:padding="10dp">
+		
+	        <com.google.android.gms.common.SignInButton
+	            android:id="@+id/sign_in_button"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" />
+	
+	        <TextView android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:layout_height="wrap_content"
+	            android:text="@string/sign_in_why"
+	            android:layout_marginLeft="10dp"
+	            android:textColor="#808080" />
+	    </LinearLayout>
+		
+	    <LinearLayout android:id="@+id/sign_out_bar"
+	        android:layout_height="120dp"
+	        android:layout_width="match_parent"
+	        android:background="#f0f0f0"
+	        android:layout_marginTop="30dp"
+	        android:orientation="horizontal"
+	        android:gravity="center|right"
+	        android:padding="10dp">
+	
+	        <TextView android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:layout_height="wrap_content"
+	            android:text="@string/you_are_signed_in"
+	            android:layout_marginRight="10dp"
+	            android:textColor="#808080" />
+	
+	         <Button
+	            android:id="@+id/sign_out_button"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/sign_out"
+	            android:textSize="12sp" />
+	    </LinearLayout>
+    </LinearLayout>
+	<com.google.android.gms.ads.AdView 
+	    android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adUnitId="ca-app-pub-3217048277983592/9814762669"
+        ads:adSize="BANNER"/>
+</LinearLayout>

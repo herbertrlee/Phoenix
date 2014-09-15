@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="app_id">429408059841</string>
+  <string name="achievement_first_burst">CgkIwYPc1b8MEAIQAA</string>
+  <string name="achievement_level_revel">CgkIwYPc1b8MEAIQAQ</string>
+  <string name="achievement_thrifty_fifty">CgkIwYPc1b8MEAIQAg</string>
+  <string name="achievement_far_star">CgkIwYPc1b8MEAIQAw</string>
+  <string name="achievement_awesome_possum">CgkIwYPc1b8MEAIQBA</string>
+  <string name="leaderboard_most_stinky_pinkies_answered">CgkIwYPc1b8MEAIQBQ</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	<string name="app_name">Stinky Pinky</string>
+	<string name="title_activity_main">Stinky Pinky</string>
+	<string name="play">Play!</string>
+	<string name="info">About</string>
+	<string name="achievements">Achievements</string>
+	<string name="leaderboards">Leaderboards</string>
+	<string name="quit">Quit</string>
+	<string name="unlock">Level Unlocked!</string>
+	<string name="next_level">Go To Next Level</string>
+	<string name="previous">Go To Previous Level</string>
+	<string name="check">Check</string>
+	<string name="next_riddle">Next</string>
+	<string name="locked">This level is still locked!  Go back and earn more stars to unlock it.</string>
+	<string name="hint1">_ _ _ _ _</string>
+	<string name="hint2">X______</string>
+	<string name="hint3">______X</string>
+	<string name="hint">Hints:</string>
+	<string name="needStars">You need 10 stars to use a hint!</string>
+	<string name="correct">Correct!</string>
+	
+	<string name="signing_in">Signing in with Google</string>
+    <string name="signing_out">Signing out</string>
+    <string name="sign_in_why">Sign in with Google to share your scores and achievements with your friends.</string>
+    <string name="you_are_signed_in">You are signed in with Google.</string>
+    <string name="sign_out">Sign out</string>
+    <string name="achievements_not_available">Please sign in to view achievements.</string>
+    <string name="leaderboards_not_available">Please sign in to view leaderboards.</string>
+    
+    <string name="riddle">Riddle</string>
+    
+    <string name="star_alt">Star</string>
+    
+	<string name="answer">\?\?\?\?\?\?</string>
+	
+	<string name="new_content_available">More Stinky Pinkies have become available!</string>
+	
+	<string name="info_title">About Stinky Pinky</string>
+	<string name="info_paragraph_1">\tIT\'S TIME TO PLAY STINKY PINKY! IT\'S A WORD GAME CALLED STINKY PINKY!  EVERYBODY IN THE WORLD, THEY LOOOOOOVE STINKY PINKYYYYY!</string>
+	<string name="info_paragraph_2">\tStinky Pinky is the best damn word game in the world.  The basic concept is simple: you see two clues which correspond to two answers.  The two answers will rhyme.  You guess what those answers are.  For example, if I give you the clues \"smelly finger\", then the answers would be \"stinky pinky!\"  Very easy, right\?</string>
+	<string name="info_paragraph_3">\tNow, every time you answer a Stinky Pinky, you\'ll get some stars.  Answer it right on the first try and you get five stars.  Every time you answer it incorrectly, the value will go down by a star.  You can use these stars to buy hints!</string>
+    <string name="info_paragraph_4">\tThere are three types of hints.  One will give you the number of letters in the answers, one will tell you the first letters of the answers, and one will tell you the last letters of the answers.  You can use as many hints as you want per Stinky Pinky, but it\'ll cost you stars every time, so be careful with them!</string>
+    <string name="info_paragraph_5">\tWhen you first start playing, you\'ll only be able to access the first 10 Stinky Pinkies.  To unlock more levels, you\'ll have to get more answers.  More Stinky Pinkies are being added all the time, so keep checking back.</string>
+    <string name="info_paragraph_6">\tStinky Pinky was made popular on the nationally syndicated radio show Loveline, hosted by Dr. Drew Pinsky and Mike Catherwood.  I have no association with Loveline, but am a huge fan and encourage everyone to check it out at lovelineshow.com.</string>
+    
+    <string name="settings">Settings</string>
+    <string name="notifications">Notifications</string>
+    <string name="notifications_sound">Sound</string>
+    <string name="notifications_vibrate">Vibrate</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+</resources>
